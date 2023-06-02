@@ -18,7 +18,7 @@ import hashlib
 ########################################################################################################################
 # specify following block
 
-scenario = "NOFISH"
+scenario = "BAU"
 start = 2050
 end = 2060
 
@@ -215,9 +215,9 @@ csv_dir_biom = r"C:\Users\samuelmorsbach\OneDrive\Uni\Master\Master Thesis\R Mas
 csv_dir_catch = r"C:\Users\samuelmorsbach\OneDrive\Uni\Master\Master Thesis\R Master Thesis\data\Model Output" + "\\" + scenario + "_" + year_begin + year_end + "_catch.csv"
 
 
-#respiration_df_final.to_csv(csv_dir_resp)
-#egestion_df_final.to_csv(csv_dir_eges)
-#biosink_df_final.to_csv(csv_dir_bios)
-#flowtodet_df_final.to_csv(csv_dir_flow)
-#biomass_df_final.to_csv(csv_dir_biom)
+respiration_df_final.to_csv(csv_dir_resp)
+egestion_df_final.to_csv(csv_dir_eges)
+biosink_df_final.to_csv(csv_dir_bios)
+flowtodet_df_final.to_csv(csv_dir_flow)
+biomass_df_final.to_csv(csv_dir_biom)
 catch_df_final.to_csv(csv_dir_catch)
